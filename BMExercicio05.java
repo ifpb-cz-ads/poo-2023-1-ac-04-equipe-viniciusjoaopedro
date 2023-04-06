@@ -5,7 +5,7 @@ dia da semana correspondente.
 
 import java.util.Scanner;
 
-public class MyClass {
+public class BMExercicio05 {
     public static void main(String args[]) {
         Scanner read = new Scanner(System.in);
         int numero = read.nextInt();
