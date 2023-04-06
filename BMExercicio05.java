@@ -5,7 +5,7 @@ dia da semana correspondente.
 
 import java.util.Scanner;
 
-public class BMExercicio05 {
+public class MyClass {
     public static void main(String args[]) {
         Scanner read = new Scanner(System.in);
         int numero = read.nextInt();
@@ -29,7 +29,7 @@ public class BMExercicio05 {
             case 6:
                 dia_da_semana = "sexta";
                 break;
-            case 7:
+            default:
                 dia_da_semana = "sabado";
                 break;
         }
